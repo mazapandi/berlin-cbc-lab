@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Conjoint Analysis — Handout</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ink: #1e2124;
+    --paper: #faf6ec;
+    --muted: #6c6a60;
+    --rule: #d6cfbe;
+    --wall: #4a6075;
+    --accent: #c43822;
+    --accent-soft: #e8a397;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Work Sans', Arial, sans-serif;
+    color: var(--ink);
+    background: #e5e0cf;
+    margin: 0;
+    padding: 24px;
+    font-size: 11pt;
+    line-height: 1.35;
+  }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    background: var(--paper);
+    padding: 18mm 16mm;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 6mm;
+  }
+  header {
+    border-bottom: 1.5pt solid var(--wall);
+    padding-bottom: 4mm;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10mm;
+  }
+  .title-block h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: 22pt;
+    line-height: 1.05;
+    margin: 0 0 2mm;
+    color: var(--ink);
+  }
+  .title-block h1 em {
+    font-style: italic;
+    color: var(--accent);
+    font-weight: 500;
+  }
+  .title-block .sub {
+    font-size: 10pt;
+    color: var(--muted);
+  }
+  .meta-block {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8pt;
+    color: var(--muted);
+    text-align: right;
+    letter-spacing: 0.08em;
+    line-height: 1.5;
+  }
+  .meta-block strong { color: var(--ink); font-weight: 500; }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7mm;
+    align-content: start;
+  }
+  main > section { break-inside: avoid; }
+
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 7.5pt;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin: 0 0 2mm;
+  }
+  .section-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 13pt;
+    font-weight: 600;
+    margin: 0 0 3mm;
+    line-height: 1.1;
+  }
+
+  .choice-example {
+    grid-column: 1 / -1;
+    padding: 5mm;
+    background: #ece6d7;
+    border-radius: 3mm;
+  }
+  .choice-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9.5pt;
+    margin-top: 2mm;
+  }
+  .choice-table th, .choice-table td {
+    padding: 1.5mm 2mm;
+    text-align: left;
+    border-bottom: 0.5pt solid var(--rule);
+  }
+  .choice-table th {
+    background: var(--wall);
+    color: var(--paper);
+    font-weight: 500;
+    font-size: 9pt;
+  }
+  .choice-table th.highlight {
+    background: var(--accent);
+  }
+  .choice-table .picked {
+    background: #fcf0ed;
+    font-weight: 500;
+  }
+  .choice-table .code {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    color: var(--accent);
+  }
+  .choice-question {
+    font-size: 10pt;
+    font-style: italic;
+    color: var(--ink);
+    margin: 0 0 2mm;
+  }
+
+  .formula-box {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 5mm;
+    border-radius: 3mm;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .formula-box .big {
+    font-size: 13pt;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+  .formula-box .caption {
+    font-size: 8pt;
+    color: var(--accent-soft);
+    margin-top: 1.5mm;
+    letter-spacing: 0.08em;
+  }
+
+  dl.components {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.2mm 3mm;
+    font-size: 9pt;
+    margin: 2mm 0 0;
+  }
+  dl.components dt {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  dl.components dd {
+    margin: 0;
+    color: var(--ink);
+  }
+
+  .refs {
+    grid-column: 1 / -1;
+  }
+  .refs ol {
+    padding-left: 5mm;
+    margin: 0;
+    font-size: 9pt;
+    line-height: 1.4;
+  }
+  .refs li { margin-bottom: 2mm; }
+  .refs li em { font-style: italic; color: var(--muted); }
+
+  .limits-box {
+    padding: 4mm;
+    background: #f3eee0;
+    border-left: 2.5pt solid var(--accent);
+    border-radius: 1mm;
+    font-size: 9pt;
+    line-height: 1.4;
+  }
+  .limits-box p { margin: 0 0 1.5mm; }
+  .limits-box p:last-child { margin-bottom: 0; }
+  .limits-box b { color: var(--accent); }
+
+  footer {
+    border-top: 1pt solid var(--rule);
+    padding-top: 3mm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 8pt;
+    color: var(--muted);
+  }
+  footer .ai-disclosure {
+    font-size: 7.5pt;
+    max-width: 110mm;
+    line-height: 1.3;
+  }
+  footer .ai-disclosure strong {
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 7pt;
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .page {
+      box-shadow: none;
+      width: 100%;
+      min-height: auto;
+      height: 100vh;
+      page-break-after: avoid;
+      padding: 15mm 14mm;
+    }
+    @page { size: A4; margin: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <div class="title-block">
+    <h1>Conjoint Analysis — <em>Berlin CBC Lab</em></h1>
+    <div class="sub">Methodological presentation handout · Carlos Maza · HTW Berlin · M9 Marketing Research</div>
+  </div>
+  <div class="meta-block">
+    <div><strong>30 OCT 2026</strong></div>
+    <div>PROF. DR. LÜTTERS</div>
+    <div>BERLINES.ES / CBC-LAB</div>
+  </div>
+</header>
+
+<main>
+
+<section class="choice-example">
+  <p class="section-label">Example choice task — one of twelve</p>
+  <h2 class="section-title">R07 (Comfort-Oriented Couple, party of 2) — Task 1</h2>
+  <p class="choice-question">"Which Spanish-language Berlin tour would you book?"</p>
+  <table class="choice-table">
+    <tr>
+      <th>Attribute</th>
+      <th>Option A</th>
+      <th>Option B</th>
+      <th class="highlight">Option C (picked)</th>
+      <th>None</th>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td><span class="code">H2</span></td>
+      <td><span class="code">L</span></td>
+      <td class="picked"><span class="code">P3.5</span></td>
+      <td>—</td>
+    </tr>
+    <tr><td>Theme</td><td>History</td><td>Local life</td><td class="picked">Customizable</td><td>—</td></tr>
+    <tr><td>Duration</td><td>2 h</td><td>3.5 h</td><td class="picked">3.5 h</td><td>—</td></tr>
+    <tr><td>Payment</td><td>Tips</td><td>€18 / person</td><td class="picked">€125 / person</td><td>—</td></tr>
+    <tr><td>Group</td><td>Public (4–32)</td><td>Public (4–32)</td><td class="picked">Private (just her party)</td><td>—</td></tr>
+    <tr><td><strong>Utility V</strong></td><td>−0.77</td><td>+0.73</td><td class="picked"><strong>+3.63</strong></td><td>0.00</td></tr>
+    <tr><td><strong>Choice probability</strong></td><td>4%</td><td>11%</td><td class="picked"><strong>78%</strong></td><td>7%</td></tr>
+  </table>
+</section>
+
+<section>
+  <p class="section-label">The model</p>
+  <h2 class="section-title">Utility function</h2>
+  <div class="formula-box">
+    <div class="big">V<sub style="color:#e8a397">ij</sub> = T + D + P + R + C + F + G + U</div>
+    <div class="caption">P<sub>ij</sub> = SOFTMAX(V / λ), &nbsp; λ = 1.5, &nbsp; V<sub>opt-out</sub> = 0</div>
+  </div>
+  <dl class="components">
+    <dt>T</dt><dd>Theme fit (history, local, art, custom)</dd>
+    <dt>D</dt><dd>Duration preference (short vs. long)</dd>
+    <dt>P</dt><dd>Price penalty (per €10 of payment)</dd>
+    <dt>R</dt><dd>Private format bonus</dd>
+    <dt>C</dt><dd>Customization bonus (private only)</dd>
+    <dt>F</dt><dd>Fixed-price vs. tips preference</dd>
+    <dt>G</dt><dd>Group tolerance (public tours only)</dd>
+    <dt>U</dt><dd>Tip uncertainty penalty (tips tours)</dd>
+  </dl>
+</section>
+
+<section>
+  <p class="section-label">What this is &amp; isn't</p>
+  <h2 class="section-title">Synthetic study, controlled ground truth</h2>
+  <div class="limits-box">
+    <p><b>10</b> Spanish-speaking traveller archetypes · <b>12</b> choice tasks each · <b>6</b> real tour products · reproducible with seed 42.</p>
+    <p>Preferences are invented and known to me. This demonstrates the mechanism and lets me check whether CBC recovers what I programmed. <b>Not a market study.</b></p>
+    <p><b>Preference recovery:</b> 7 of 10 archetypes land on their expected modal choice. R06 (Family Organizer) shows a correctly-identified edge case between private and opt-out.</p>
+    <p><b>Head-to-head H2 vs H3.5</b> (tasks 5–8): H2 wins 10 of 40 decisions, H3.5 wins 4, opt-out and other alternatives take the remaining 26. Operational: H2 is 56% more efficient on people-per-guide-hour under these preferences.</p>
+  </div>
+</section>
+
+<section class="refs">
+  <p class="section-label">Primary sources</p>
+  <ol>
+    <li><strong>Green, P. E., &amp; Srinivasan, V.</strong> (1978). Conjoint Analysis in Consumer Research: Issues and Outlook. <em>Journal of Consumer Research</em>, 5(2), 103–123. — the paper that named the method.</li>
+    <li><strong>Louviere, J. J., &amp; Woodworth, G.</strong> (1983). Design and Analysis of Simulated Consumer Choice or Allocation Experiments. <em>Journal of Marketing Research</em>, 20(4), 350–367. — the paper that invented CBC.</li>
+    <li><strong>Orme, B. K.</strong> (2013). <em>Which Conjoint Method Should I Use?</em> Sawtooth Software Research Paper Series. — practical guidance for choosing CBC vs. ACBC vs. CVA by attribute count, sample size, and interview length.</li>
+  </ol>
+</section>
+
+</main>
+
+<footer>
+  <div class="ai-disclosure">
+    <strong>AI DISCLOSURE</strong> — Implementation code and the classroom artifact were built with Claude as a coding assistant, following my specification. All methodological decisions (attributes, archetypes, utility structure, hypothesis, interpretation) are my own.
+  </div>
+  <div>Live artifact: berlines.es/cbc-lab</div>
+</footer>
+
+</div>
+</body>
+</html>
