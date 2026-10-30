@@ -1,0 +1,7 @@
+product_code,theme,duration_hours,payment_type,price_per_person,price_per_group,arrangement,customizable
+H2,history,2.0,tips,0,0,public,0
+H3.5,history,3.5,tips,0,0,public,0
+L,local_life,3.5,fixed,18,0,public,0
+AB,alternative_berlin,3.5,fixed,18,0,public,0
+P2,customizable,2.0,fixed,0,175,private,1
+P3.5,customizable,3.5,fixed,0,250,private,1

@@ -1,0 +1,17 @@
+{
+  "experiment_name": "Berlin Walking Tour CBC",
+  "version": "1.0",
+  "respondents": 10,
+  "tasks_per_respondent": 12,
+  "include_opt_out": true,
+  "opt_out_utility": 0.0,
+  "choice_model": "multinomial_logit",
+  "random_seed": 42,
+  "duration_reference_hours": 2,
+  "price_scale_euros": 10,
+  "tip_uncertainty_level_q": 1.0,
+  "logit_scale_lambda": 1.5,
+  "expected_tip_fixed_across_history_durations": true,
+  "llm_controls_choice": false,
+  "synthetic_data_only": true
+}

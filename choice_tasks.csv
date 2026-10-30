@@ -1,0 +1,13 @@
+task_id,alternative_a,alternative_b,alternative_c
+1,H2,L,P3.5
+2,H3.5,AB,P2
+3,H2,AB,P2
+4,H3.5,L,P3.5
+5,H2,H3.5,L
+6,H2,H3.5,AB
+7,H2,H3.5,P2
+8,H2,H3.5,P3.5
+9,L,AB,P2
+10,L,AB,P3.5
+11,H3.5,L,P2
+12,H2,AB,P3.5

@@ -1,0 +1,722 @@
+[
+  {
+    "respondent_id": "R01",
+    "task_id": 1,
+    "chosen_alternative": "NONE",
+    "explanation": "I've only got three hours before my train, and nothing here fits. The private tours are out of reach solo and I can't risk ending up with a huge tip bill. I'll skip."
+  },
+  {
+    "respondent_id": "R01",
+    "task_id": 2,
+    "chosen_alternative": "H3.5",
+    "explanation": "Time is tight today. The 3.5-hour history tour is longer than I'd like, but it's the only history on the menu and I came for that."
+  },
+  {
+    "respondent_id": "R01",
+    "task_id": 3,
+    "chosen_alternative": "H2",
+    "explanation": "Short visit, no time to waste. I'll take the 2-hour history tour \u2014 short, covers what I came for, and the tip is bearable."
+  },
+  {
+    "respondent_id": "R01",
+    "task_id": 4,
+    "chosen_alternative": "H3.5",
+    "explanation": "Time is tight today. The 3.5-hour history tour is longer than I'd like, but it's the only history on the menu and I came for that."
+  },
+  {
+    "respondent_id": "R01",
+    "task_id": 5,
+    "chosen_alternative": "NONE",
+    "explanation": "I've only got three hours before my train, and nothing here fits. The private tours are out of reach solo and I can't risk ending up with a huge tip bill. I'll skip."
+  },
+  {
+    "respondent_id": "R01",
+    "task_id": 6,
+    "chosen_alternative": "AB",
+    "explanation": "Three hours in Berlin and that's it, so I'll take the alternative Berlin tour. The fixed price means no surprise about what I owe at the end."
+  },
+  {
+    "respondent_id": "R01",
+    "task_id": 7,
+    "chosen_alternative": "NONE",
+    "explanation": "I've only got three hours before my train, and nothing here fits. The private tours are out of reach solo and I can't risk ending up with a huge tip bill. I'll skip."
+  },
+  {
+    "respondent_id": "R01",
+    "task_id": 8,
+    "chosen_alternative": "H2",
+    "explanation": "Short visit, no time to waste. I'll take the 2-hour history tour \u2014 short, covers what I came for, and the tip is bearable."
+  },
+  {
+    "respondent_id": "R01",
+    "task_id": 9,
+    "chosen_alternative": "AB",
+    "explanation": "Three hours in Berlin and that's it, so I'll take the alternative Berlin tour. The fixed price means no surprise about what I owe at the end."
+  },
+  {
+    "respondent_id": "R01",
+    "task_id": 10,
+    "chosen_alternative": "L",
+    "explanation": "Three hours in Berlin and that's it, so I'll take the local life tour. The fixed price means no surprise about what I owe at the end."
+  },
+  {
+    "respondent_id": "R01",
+    "task_id": 11,
+    "chosen_alternative": "H3.5",
+    "explanation": "Time is tight today. The 3.5-hour history tour is longer than I'd like, but it's the only history on the menu and I came for that."
+  },
+  {
+    "respondent_id": "R01",
+    "task_id": 12,
+    "chosen_alternative": "AB",
+    "explanation": "Three hours in Berlin and that's it, so I'll take the alternative Berlin tour. The fixed price means no surprise about what I owe at the end."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 1,
+    "chosen_alternative": "H2",
+    "explanation": "Not my first choice, but the 2-hour history tour is the best of what's offered here. I'd rather do local life, but history will do."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 2,
+    "chosen_alternative": "AB",
+    "explanation": "Give me the lived-in city. The alternative Berlin tour hits the lived-in angle too, and I like that it's fixed-price."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 3,
+    "chosen_alternative": "P2",
+    "explanation": "I want the real neighbourhoods, and the 2-hour private tour means we get to shape the route around what my partner and I actually want to see."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 4,
+    "chosen_alternative": "L",
+    "explanation": "I want the real neighbourhoods \u2014 the local life tour is exactly what I came for. Shared group is fine, \u20ac18 is fine, local neighbourhoods are the point."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 5,
+    "chosen_alternative": "L",
+    "explanation": "I want the real neighbourhoods \u2014 the local life tour is exactly what I came for. Shared group is fine, \u20ac18 is fine, local neighbourhoods are the point."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 6,
+    "chosen_alternative": "AB",
+    "explanation": "Give me the lived-in city. The alternative Berlin tour hits the lived-in angle too, and I like that it's fixed-price."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 7,
+    "chosen_alternative": "NONE",
+    "explanation": "I didn't come to Berlin for the museums. None of these pull me in \u2014 I'll explore on my own."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 8,
+    "chosen_alternative": "H2",
+    "explanation": "Not my first choice, but the 2-hour history tour is the best of what's offered here. I'd rather do local life, but history will do."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 9,
+    "chosen_alternative": "P2",
+    "explanation": "I want the real neighbourhoods, and the 2-hour private tour means we get to shape the route around what my partner and I actually want to see."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 10,
+    "chosen_alternative": "AB",
+    "explanation": "Give me the lived-in city. The alternative Berlin tour hits the lived-in angle too, and I like that it's fixed-price."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 11,
+    "chosen_alternative": "L",
+    "explanation": "I want the real neighbourhoods \u2014 the local life tour is exactly what I came for. Shared group is fine, \u20ac18 is fine, local neighbourhoods are the point."
+  },
+  {
+    "respondent_id": "R02",
+    "task_id": 12,
+    "chosen_alternative": "AB",
+    "explanation": "Give me the lived-in city. The alternative Berlin tour hits the lived-in angle too, and I like that it's fixed-price."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 1,
+    "chosen_alternative": "NONE",
+    "explanation": "I came for the murals and the squats. The alternative scene isn't on offer in this set \u2014 I'll skip."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 2,
+    "chosen_alternative": "AB",
+    "explanation": "I came for the murals and the squats. The alternative Berlin tour is why I came to Berlin \u2014 street art, alternative scene, the stuff that doesn't fit the Cold War narrative."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 3,
+    "chosen_alternative": "AB",
+    "explanation": "I came for the murals and the squats. The alternative Berlin tour is why I came to Berlin \u2014 street art, alternative scene, the stuff that doesn't fit the Cold War narrative."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 4,
+    "chosen_alternative": "L",
+    "explanation": "I came for the murals and the squats. Local life is close enough to the alternative scene for me \u2014 I'll take it over the history tours."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 5,
+    "chosen_alternative": "NONE",
+    "explanation": "I came for the murals and the squats. The alternative scene isn't on offer in this set \u2014 I'll skip."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 6,
+    "chosen_alternative": "AB",
+    "explanation": "I came for the murals and the squats. The alternative Berlin tour is why I came to Berlin \u2014 street art, alternative scene, the stuff that doesn't fit the Cold War narrative."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 7,
+    "chosen_alternative": "P2",
+    "explanation": "I'm here for the street art, and the 2-hour private tour means I can tell the guide 'show me the murals and the squats' and that's what I get."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 8,
+    "chosen_alternative": "P3.5",
+    "explanation": "I came for the murals and the squats, and the 3.5-hour private tour means I can tell the guide 'show me the murals and the squats' and that's what I get."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 9,
+    "chosen_alternative": "AB",
+    "explanation": "I came for the murals and the squats. The alternative Berlin tour is why I came to Berlin \u2014 street art, alternative scene, the stuff that doesn't fit the Cold War narrative."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 10,
+    "chosen_alternative": "NONE",
+    "explanation": "I came for the murals and the squats. The alternative scene isn't on offer in this set \u2014 I'll skip."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 11,
+    "chosen_alternative": "L",
+    "explanation": "I came for the murals and the squats. Local life is close enough to the alternative scene for me \u2014 I'll take it over the history tours."
+  },
+  {
+    "respondent_id": "R03",
+    "task_id": 12,
+    "chosen_alternative": "AB",
+    "explanation": "I came for the murals and the squats. The alternative Berlin tour is why I came to Berlin \u2014 street art, alternative scene, the stuff that doesn't fit the Cold War narrative."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 1,
+    "chosen_alternative": "P3.5",
+    "explanation": "I've read about this city for years. I'd customise the 3.5-hour private tour to be a deep history walk \u2014 happy to pay for the guide's full attention."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 2,
+    "chosen_alternative": "H3.5",
+    "explanation": "I've read about this city for years. I'll take the long history tour every time \u2014 more time, more context, more layers of the story."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 3,
+    "chosen_alternative": "NONE",
+    "explanation": "I came specifically for the history, and nothing in this set is history-focused enough for what I want. I'll pass."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 4,
+    "chosen_alternative": "H3.5",
+    "explanation": "I've read about this city for years. I'll take the long history tour every time \u2014 more time, more context, more layers of the story."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 5,
+    "chosen_alternative": "H3.5",
+    "explanation": "I've read about this city for years. I'll take the long history tour every time \u2014 more time, more context, more layers of the story."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 6,
+    "chosen_alternative": "H2",
+    "explanation": "Berlin is a history book you can walk through. The 2-hour version is shorter than I'd like, but history is what I came for and the longer one isn't on this menu."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 7,
+    "chosen_alternative": "H2",
+    "explanation": "Berlin is a history book you can walk through. The 2-hour version is shorter than I'd like, but history is what I came for and the longer one isn't on this menu."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 8,
+    "chosen_alternative": "H2",
+    "explanation": "Berlin is a history book you can walk through. The 2-hour version is shorter than I'd like, but history is what I came for and the longer one isn't on this menu."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 9,
+    "chosen_alternative": "L",
+    "explanation": "Not what I came for, but the local life tour is the best option in this set."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 10,
+    "chosen_alternative": "L",
+    "explanation": "Not what I came for, but the local life tour is the best option in this set."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 11,
+    "chosen_alternative": "H3.5",
+    "explanation": "I've read about this city for years. I'll take the long history tour every time \u2014 more time, more context, more layers of the story."
+  },
+  {
+    "respondent_id": "R04",
+    "task_id": 12,
+    "chosen_alternative": "H2",
+    "explanation": "Berlin is a history book you can walk through. The 2-hour version is shorter than I'd like, but history is what I came for and the longer one isn't on this menu."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 1,
+    "chosen_alternative": "NONE",
+    "explanation": "My budget is tight \u2014 these are all too expensive for four of us on a budget. I'd rather use a free walking tour and tip what I can."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 2,
+    "chosen_alternative": "AB",
+    "explanation": "\u20ac18 is at the top of what I'll pay for a walking tour, but the alternative Berlin tour looks worth it for four of us."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 3,
+    "chosen_alternative": "AB",
+    "explanation": "\u20ac18 is at the top of what I'll pay for a walking tour, but the alternative Berlin tour looks worth it for four of us."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 4,
+    "chosen_alternative": "L",
+    "explanation": "\u20ac18 is at the top of what I'll pay for a walking tour, but the local life tour looks worth it for four of us."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 5,
+    "chosen_alternative": "H3.5",
+    "explanation": "Every euro counts on this trip \u2014 the 3.5-hour history tour is tips-based, so I can pay what I can afford. That's the plan."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 6,
+    "chosen_alternative": "NONE",
+    "explanation": "My budget is tight \u2014 these are all too expensive for four of us on a budget. I'd rather use a free walking tour and tip what I can."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 7,
+    "chosen_alternative": "NONE",
+    "explanation": "My budget is tight \u2014 these are all too expensive for four of us on a budget. I'd rather use a free walking tour and tip what I can."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 8,
+    "chosen_alternative": "NONE",
+    "explanation": "My budget is tight \u2014 these are all too expensive for four of us on a budget. I'd rather use a free walking tour and tip what I can."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 9,
+    "chosen_alternative": "L",
+    "explanation": "\u20ac18 is at the top of what I'll pay for a walking tour, but the local life tour looks worth it for four of us."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 10,
+    "chosen_alternative": "NONE",
+    "explanation": "My budget is tight \u2014 these are all too expensive for four of us on a budget. I'd rather use a free walking tour and tip what I can."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 11,
+    "chosen_alternative": "H3.5",
+    "explanation": "Every euro counts on this trip \u2014 the 3.5-hour history tour is tips-based, so I can pay what I can afford. That's the plan."
+  },
+  {
+    "respondent_id": "R05",
+    "task_id": 12,
+    "chosen_alternative": "AB",
+    "explanation": "\u20ac18 is at the top of what I'll pay for a walking tour, but the alternative Berlin tour looks worth it for four of us."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 1,
+    "chosen_alternative": "NONE",
+    "explanation": "Travelling with the family \u2014 two kids in tow. Nothing here works \u2014 public with the kids is tough, and the private option is still a big spend. I'll look elsewhere."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 2,
+    "chosen_alternative": "P2",
+    "explanation": "I need something manageable for the group. The 2-hour private tour is perfect \u2014 just us four, kids can set the pace, \u20ac43 each is manageable."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 3,
+    "chosen_alternative": "P2",
+    "explanation": "I need something manageable for the group. The 2-hour private tour is perfect \u2014 just us four, kids can set the pace, \u20ac43 each is manageable."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 4,
+    "chosen_alternative": "NONE",
+    "explanation": "Travelling with the family \u2014 two kids in tow. Nothing here works \u2014 public with the kids is tough, and the private option is still a big spend. I'll look elsewhere."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 5,
+    "chosen_alternative": "NONE",
+    "explanation": "Travelling with the family \u2014 two kids in tow. Public group tours with the kids are a non-starter and there's no private option here. I'll ask the hotel for family-friendly ideas instead."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 6,
+    "chosen_alternative": "NONE",
+    "explanation": "Travelling with the family \u2014 two kids in tow. Public group tours with the kids are a non-starter and there's no private option here. I'll ask the hotel for family-friendly ideas instead."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 7,
+    "chosen_alternative": "P2",
+    "explanation": "I need something manageable for the group. The 2-hour private tour is perfect \u2014 just us four, kids can set the pace, \u20ac43 each is manageable."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 8,
+    "chosen_alternative": "H2",
+    "explanation": "I need something manageable for the group. The 2-hour history tour is my fallback \u2014 short enough for the kids, and the tip is manageable even for four."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 9,
+    "chosen_alternative": "P2",
+    "explanation": "I need something manageable for the group. The 2-hour private tour is perfect \u2014 just us four, kids can set the pace, \u20ac43 each is manageable."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 10,
+    "chosen_alternative": "AB",
+    "explanation": "If private isn't on offer, the alternative Berlin tour is a safe second \u2014 fixed price, I know what I'm paying for four of us."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 11,
+    "chosen_alternative": "P2",
+    "explanation": "I need something manageable for the group. The 2-hour private tour is perfect \u2014 just us four, kids can set the pace, \u20ac43 each is manageable."
+  },
+  {
+    "respondent_id": "R06",
+    "task_id": 12,
+    "chosen_alternative": "NONE",
+    "explanation": "Travelling with the family \u2014 two kids in tow. Nothing here works \u2014 public with the kids is tough, and the private option is still a big spend. I'll look elsewhere."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 1,
+    "chosen_alternative": "P3.5",
+    "explanation": "It's just the two of us. The 3.5-hour private tour is exactly what we want \u2014 just the two of us, tailored to our interests, worth every euro."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 2,
+    "chosen_alternative": "P2",
+    "explanation": "This is a romantic trip, not a group outing. The 2-hour private tour is a bit short, but better than sharing a sidewalk with 20 strangers."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 3,
+    "chosen_alternative": "P2",
+    "explanation": "This is a romantic trip, not a group outing. The 2-hour private tour is a bit short, but better than sharing a sidewalk with 20 strangers."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 4,
+    "chosen_alternative": "P3.5",
+    "explanation": "It's just the two of us. The 3.5-hour private tour is exactly what we want \u2014 just the two of us, tailored to our interests, worth every euro."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 5,
+    "chosen_alternative": "NONE",
+    "explanation": "It's just the two of us, and all three options here are public group tours. We'd rather pay for the private tour and have the day to ourselves. Pass."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 6,
+    "chosen_alternative": "AB",
+    "explanation": "If private isn't on the menu, the alternative Berlin tour is a decent fallback \u2014 I'd still rather pay for the private, but this works."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 7,
+    "chosen_alternative": "P2",
+    "explanation": "This is a romantic trip, not a group outing. The 2-hour private tour is a bit short, but better than sharing a sidewalk with 20 strangers."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 8,
+    "chosen_alternative": "P3.5",
+    "explanation": "It's just the two of us. The 3.5-hour private tour is exactly what we want \u2014 just the two of us, tailored to our interests, worth every euro."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 9,
+    "chosen_alternative": "P2",
+    "explanation": "This is a romantic trip, not a group outing. The 2-hour private tour is a bit short, but better than sharing a sidewalk with 20 strangers."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 10,
+    "chosen_alternative": "P3.5",
+    "explanation": "It's just the two of us. The 3.5-hour private tour is exactly what we want \u2014 just the two of us, tailored to our interests, worth every euro."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 11,
+    "chosen_alternative": "P2",
+    "explanation": "This is a romantic trip, not a group outing. The 2-hour private tour is a bit short, but better than sharing a sidewalk with 20 strangers."
+  },
+  {
+    "respondent_id": "R07",
+    "task_id": 12,
+    "chosen_alternative": "P3.5",
+    "explanation": "It's just the two of us. The 3.5-hour private tour is exactly what we want \u2014 just the two of us, tailored to our interests, worth every euro."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 1,
+    "chosen_alternative": "L",
+    "explanation": "I'll pick depth over breadth. Local life works for me \u2014 proper neighbourhoods, not the Brandenburg Gate parade."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 2,
+    "chosen_alternative": "AB",
+    "explanation": "I want something a bit off the standard route. The alternative Berlin tour fits \u2014 alternative, art-forward, not the standard tourist loop."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 3,
+    "chosen_alternative": "NONE",
+    "explanation": "I prefer to explore on my own terms. Nothing here is alternative enough \u2014 I'll explore my own route."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 4,
+    "chosen_alternative": "L",
+    "explanation": "I'll pick depth over breadth. Local life works for me \u2014 proper neighbourhoods, not the Brandenburg Gate parade."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 5,
+    "chosen_alternative": "H2",
+    "explanation": "If I have to do history, the 2-hour version is enough. I prefer to explore on my own terms."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 6,
+    "chosen_alternative": "H2",
+    "explanation": "If I have to do history, the 2-hour version is enough. I prefer to explore on my own terms."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 7,
+    "chosen_alternative": "H2",
+    "explanation": "If I have to do history, the 2-hour version is enough. I prefer to explore on my own terms."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 8,
+    "chosen_alternative": "NONE",
+    "explanation": "I prefer to explore on my own terms. Nothing here is alternative enough \u2014 I'll explore my own route."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 9,
+    "chosen_alternative": "NONE",
+    "explanation": "I prefer to explore on my own terms. Nothing here is alternative enough \u2014 I'll explore my own route."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 10,
+    "chosen_alternative": "AB",
+    "explanation": "I want something a bit off the standard route. The alternative Berlin tour fits \u2014 alternative, art-forward, not the standard tourist loop."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 11,
+    "chosen_alternative": "H3.5",
+    "explanation": "I'll take the 3.5-hour history tour. It's the best fit from what's on offer in this set."
+  },
+  {
+    "respondent_id": "R08",
+    "task_id": 12,
+    "chosen_alternative": "AB",
+    "explanation": "I want something a bit off the standard route. The alternative Berlin tour fits \u2014 alternative, art-forward, not the standard tourist loop."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 1,
+    "chosen_alternative": "NONE",
+    "explanation": "I'm open to most things. Nothing jumps out as worth booking this time \u2014 I'll pass."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 2,
+    "chosen_alternative": "AB",
+    "explanation": "Hard to say what I want most, honestly. The alternative Berlin tour looks interesting \u2014 I'll go with the alternative angle today."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 3,
+    "chosen_alternative": "NONE",
+    "explanation": "I'm open to most things. Nothing jumps out as worth booking this time \u2014 I'll pass."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 4,
+    "chosen_alternative": "NONE",
+    "explanation": "I'm open to most things. Nothing jumps out as worth booking this time \u2014 I'll pass."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 5,
+    "chosen_alternative": "H2",
+    "explanation": "I'll take the 2-hour history tour. It's the best fit from what's on offer in this set."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 6,
+    "chosen_alternative": "AB",
+    "explanation": "Hard to say what I want most, honestly. The alternative Berlin tour looks interesting \u2014 I'll go with the alternative angle today."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 7,
+    "chosen_alternative": "P2",
+    "explanation": "I'll go with whatever looks solid, and splitting the 2-hour private tour between the two of us is manageable. Private sounds nice for a change."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 8,
+    "chosen_alternative": "H3.5",
+    "explanation": "I'll go with whatever looks solid, and the 3.5-hour history tour gives me the most depth for the time. I'll take it."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 9,
+    "chosen_alternative": "L",
+    "explanation": "Hard to say what I want most, honestly. Local life sounds good \u2014 fixed price, nice length, varied content."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 10,
+    "chosen_alternative": "AB",
+    "explanation": "Hard to say what I want most, honestly. The alternative Berlin tour looks interesting \u2014 I'll go with the alternative angle today."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 11,
+    "chosen_alternative": "H3.5",
+    "explanation": "I'll go with whatever looks solid, and the 3.5-hour history tour gives me the most depth for the time. I'll take it."
+  },
+  {
+    "respondent_id": "R09",
+    "task_id": 12,
+    "chosen_alternative": "AB",
+    "explanation": "Hard to say what I want most, honestly. The alternative Berlin tour looks interesting \u2014 I'll go with the alternative angle today."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 1,
+    "chosen_alternative": "L",
+    "explanation": "I only have an afternoon free. Local life gives me the colour I want without the heavy history angle."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 2,
+    "chosen_alternative": "NONE",
+    "explanation": "I only have an afternoon free. None of these hits the mark \u2014 I'll just walk around and look at street art myself."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 3,
+    "chosen_alternative": "NONE",
+    "explanation": "I only have an afternoon free. None of these hits the mark \u2014 I'll just walk around and look at street art myself."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 4,
+    "chosen_alternative": "L",
+    "explanation": "I only have an afternoon free. Local life gives me the colour I want without the heavy history angle."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 5,
+    "chosen_alternative": "L",
+    "explanation": "I only have an afternoon free. Local life gives me the colour I want without the heavy history angle."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 6,
+    "chosen_alternative": "H3.5",
+    "explanation": "History isn't my thing but the 3.5-hour history tour is the best option here."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 7,
+    "chosen_alternative": "NONE",
+    "explanation": "I only have an afternoon free. None of these hits the mark \u2014 I'll just walk around and look at street art myself."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 8,
+    "chosen_alternative": "NONE",
+    "explanation": "I only have an afternoon free. None of these hits the mark \u2014 I'll just walk around and look at street art myself."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 9,
+    "chosen_alternative": "AB",
+    "explanation": "Street art and life on the streets, that's what I'm after. The alternative Berlin tour is the visual, vibrant side of Berlin \u2014 exactly my scene, even if it's a bit long."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 10,
+    "chosen_alternative": "AB",
+    "explanation": "Street art and life on the streets, that's what I'm after. The alternative Berlin tour is the visual, vibrant side of Berlin \u2014 exactly my scene, even if it's a bit long."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 11,
+    "chosen_alternative": "P2",
+    "explanation": "I'm here for a day and want colour, not textbooks, and splitting the 2-hour private tour between the two of us means we can request the street-art route."
+  },
+  {
+    "respondent_id": "R10",
+    "task_id": 12,
+    "chosen_alternative": "H2",
+    "explanation": "History isn't my thing but the 2-hour history tour is the best option here."
+  }
+]
